@@ -70,7 +70,7 @@ class MeterControllerTest {
     }
 
     @Test
-    void testGetMeterById_WithValidId() {
+    void testGetMeterByIdWithValidId() {
         Optional<Meter> optional = Optional.of(meter);
 
         // Mocking the meterService method
@@ -87,11 +87,13 @@ class MeterControllerTest {
         assertEquals(meter, responseEntity.getBody());
     }
 
+   
     @Test
-    void testGetMeterById_WithInvalidId() {
+    void testGetMeterByIdWithInvalidId() {
+        // Create an empty Optional
         Optional<Meter> optional = Optional.empty();
 
-        // Mocking the meterService method
+        // Mock the meterService method to return the empty Optional
         when(meterService.getMeterById(2)).thenReturn(optional);
 
         // Call the method to be tested
@@ -102,6 +104,8 @@ class MeterControllerTest {
 
         // Assert the expected result
         assertEquals(HttpStatus.BAD_REQUEST, responseEntity.getStatusCode());
-        assertEquals("Invalid ID Given", responseEntity.getBody());
+        assertEquals("Invalid ID Given", responseEntity.getBody().toString());
     }
+
+
 }

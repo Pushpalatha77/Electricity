@@ -18,9 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.electricity.api.service.UserService;
 
- 
-
- 
+  
 
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter{

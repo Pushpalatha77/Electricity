@@ -1,0 +1,882 @@
+src/main/java/com/electricity/api/ElectrictyApplication.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/ElectrictyApplication.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/electricity/api/ElectrictyApplication.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/ElectrictyApplication.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/electricity/api/SecurityConfig.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.security.core.userdetails.User'
+src/main/java/com/electricity/api/SecurityConfig.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/SecurityConfig.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/SecurityConfig.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/SecurityConfig.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'auth' is not assigned and could be declared final
+src/main/java/com/electricity/api/SecurityConfig.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'http' is not assigned and could be declared final
+src/main/java/com/electricity/api/SecurityConfig.java:40:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/electricity/api/SecurityConfig.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dao' could be declared final
+src/main/java/com/electricity/api/SecurityConfig.java:60:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'getPasswordEncoder()'
+src/main/java/com/electricity/api/SecurityConfig.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'encoder' could be declared final
+src/main/java/com/electricity/api/SecurityConfig.java:62:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'encoder'
+src/main/java/com/electricity/api/controller/AdminController.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/AdminController.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/AdminController.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/AdminController.java:39:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/AdminController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/AdminController.java:45:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/controller/AdminController.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/AdminController.java:53:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/AdminController.java:53:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/controller/BillController.java:34:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/BillController.java:34:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/BillController.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/BillController.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/BillController.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/BillController.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:52:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalP' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:61:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/BillController.java:61:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/BillController.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalD' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:67:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/BillController.java:67:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/BillController.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:102:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:104:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:115:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:128:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:128:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:147:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:147:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:148:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:159:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/BillController.java:159:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/BillController.java:160:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:41:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/CustomerController.java:41:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:49:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:57:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meterId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:71:	LawOfDemeter:	LawOfDemeter: Call to `setRole` on foreign value `user` (degree 2)
+src/main/java/com/electricity/api/controller/CustomerController.java:75:	LawOfDemeter:	LawOfDemeter: Call to `getPassword` on foreign value `user` (degree 2)
+src/main/java/com/electricity/api/controller/CustomerController.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'encodedPassword' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:79:	LawOfDemeter:	LawOfDemeter: Call to `setPassword` on foreign value `user` (degree 2)
+src/main/java/com/electricity/api/controller/CustomerController.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalMeter' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:95:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/CustomerController.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:117:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:119:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:119:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/CustomerController.java:127:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:127:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customerId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:129:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:133:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/CustomerController.java:133:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/CustomerController.java:135:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:143:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:144:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:154:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:155:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:164:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/CustomerController.java:164:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:167:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/CustomerController.java:167:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/MeterController.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/MeterController.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/MeterController.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/MeterController.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/MeterController.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meter' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/MeterController.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/MeterController.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/MeterController.java:37:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/MeterController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/MeterController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/MeterController.java:45:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/controller/MeterController.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/controller/MeterController.java:51:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/MeterController.java:51:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/MeterController.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:29:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/PaymentController.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'billId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'custId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:42:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/electricity/api/controller/PaymentController.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalBill' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:47:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/PaymentController.java:47:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/PaymentController.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalCustomer' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:52:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/PaymentController.java:52:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/PaymentController.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:80:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:82:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/PaymentController.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:92:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:108:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cid' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:108:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/electricity/api/controller/PaymentController.java:112:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:112:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/electricity/api/controller/PaymentController.java:122:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/PaymentController.java:122:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentId' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/controller/PaymentController.java:128:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/electricity/api/controller/PaymentController.java:128:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/PaymentController.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/controller/UserController.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/controller/UserController.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/UserController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/controller/UserController.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/UserController.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDB' could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:35:	LogicInversion:	LogicInversion: Use opposite operator instead of the logic complement operator.
+src/main/java/com/electricity/api/controller/UserController.java:36:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/electricity/api/controller/UserController.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'encodedPassword' could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/UserController.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'principal' is not assigned and could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/electricity/api/controller/UserController.java:51:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'user'
+src/main/java/com/electricity/api/controller/UserController.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/UserController.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/controller/UserController.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/data/AdminRepository.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/BillRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/CustomerRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/CustomerRepository.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/data/CustomerRepository.java:11:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findCustomerByMeter': the method is declared in an interface type
+src/main/java/com/electricity/api/data/MeterRepository.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/PaymentRepository.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/UserRepository.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/data/UserRepository.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/dto/Message.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/dto/Message.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/dto/Message.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/dto/Message.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/BillNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/exception/BillNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/electricity/api/exception/BillNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/BillNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/CustomerNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/exception/CustomerNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/electricity/api/exception/CustomerNotFoundException.java:4:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/electricity/api/exception/CustomerNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/CustomerNotFoundException.java:4:	UnusedFormalParameter:	UnusedFormalParameter: Avoid unused constructor parameters such as 'message'.
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:17:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/GlobalExceptionHandler.java:37:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/electricity/api/exception/MeterIdNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/exception/MeterIdNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/electricity/api/exception/MeterIdNotFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/MeterIdNotFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/electricity/api/exception/PaymentNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/exception/PaymentNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/electricity/api/exception/PaymentNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/exception/PaymentNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/electricity/api/model/Admin.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToMany'
+src/main/java/com/electricity/api/model/Admin.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToOne'
+src/main/java/com/electricity/api/model/Admin.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/Admin.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Admin.java:22:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/Admin.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Admin.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Admin.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/Bill.java:23:	ShortClassName:	ShortClassName: Avoid short class names like Bill
+src/main/java/com/electricity/api/model/Bill.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/Bill.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Bill.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.ManyToOne'
+src/main/java/com/electricity/api/model/Customer.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToMany'
+src/main/java/com/electricity/api/model/Customer.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/Customer.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/Customer.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Customer.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Meter.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.ManyToOne'
+src/main/java/com/electricity/api/model/Meter.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/Meter.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Meter.java:20:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/Meter.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/Payment.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/Payment.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/Payment.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/User.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToOne'
+src/main/java/com/electricity/api/model/User.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/model/User.java:31:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/electricity/api/model/User.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/User.java:37:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/model/User.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/User.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/model/User.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/AdminService.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/AdminService.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/AdminService.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/AdminService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/AdminService.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/AdminService.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/AdminService.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/AdminService.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/AdminService.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/AdminService.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/BillService.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/BillService.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/BillService.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/BillService.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'units' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'unitPrice' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:47:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/service/BillService.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalBill' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bill' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalBill' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:88:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cid' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filteredList' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:92:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'filteredList'
+src/main/java/com/electricity/api/service/BillService.java:103:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/BillService.java:103:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mid' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/BillService.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filteredList' could be declared final
+src/main/java/com/electricity/api/service/BillService.java:109:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'filteredList'
+src/main/java/com/electricity/api/service/CustomerService.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.electricity.api.model.Meter'
+src/main/java/com/electricity/api/service/CustomerService.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/CustomerService.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:23:	LongVariable:	LongVariable: Avoid excessively long variable names like customerRepository
+src/main/java/com/electricity/api/service/CustomerService.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:44:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/service/CustomerService.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:48:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'optional'
+src/main/java/com/electricity/api/service/CustomerService.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'customer' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:72:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/CustomerService.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mid' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filteredList' could be declared final
+src/main/java/com/electricity/api/service/CustomerService.java:79:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'filteredList'
+src/main/java/com/electricity/api/service/MeterService.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/MeterService.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/MeterService.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/MeterService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/MeterService.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meter' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/MeterService.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/MeterService.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/MeterService.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/MeterService.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/service/MeterService.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/electricity/api/service/MeterService.java:31:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'optional'
+src/main/java/com/electricity/api/service/PaymentService.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.time.LocalDate'
+src/main/java/com/electricity/api/service/PaymentService.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.electricity.api.model.Bill'
+src/main/java/com/electricity/api/service/PaymentService.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/PaymentService.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:21:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/electricity/api/service/PaymentService.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'finePerDay' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:32:	LawOfDemeter:	LawOfDemeter: Call to `getBill` on foreign value `payment` (degree 1)
+src/main/java/com/electricity/api/service/PaymentService.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'days' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fineAmount' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:33:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'fineAmount'
+src/main/java/com/electricity/api/service/PaymentService.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:46:	LawOfDemeter:	LawOfDemeter: Call to `getBill` on foreign value `payment` (degree 1)
+src/main/java/com/electricity/api/service/PaymentService.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'length' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allowedCharacters' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'random' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionIdBuilder' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:80:	LongVariable:	LongVariable: Avoid excessively long variable names like transactionIdBuilder
+src/main/java/com/electricity/api/service/PaymentService.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'randomIndex' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'randomChar' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:102:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:108:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:113:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:113:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:119:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:119:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/electricity/api/service/PaymentService.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:139:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/service/PaymentService.java:139:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cid' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:143:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:147:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filteredList' could be declared final
+src/main/java/com/electricity/api/service/PaymentService.java:147:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'filteredList'
+src/main/java/com/electricity/api/service/UserService.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/electricity/api/service/UserService.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/service/UserService.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/service/UserService.java:24:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/electricity/api/service/UserService.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/electricity/api/service/UserService.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/electricity/api/service/UserService.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/electricity/api/service/UserService.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sga' could be declared final
+src/main/java/com/electricity/api/service/UserService.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'springUser' could be declared final
+src/main/java/com/electricity/api/service/UserService.java:32:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'springUser'
+src/main/java/com/electricity/api/util/LoggerUtil.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/electricity/api/util/LoggerUtil.java:6:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/electricity/api/util/LoggerUtil.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/electricity/api/util/LoggerUtil.java:15:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on constructor 'LoggerUtil()'
+src/main/java/com/electricity/api/util/LoggerUtil.java:15:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/electricity/api/util/LoggerUtil.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/electricity/api/util/LoggerUtil.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/test/java/com/electricity/ElectricityApplicationTests.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.boot.test.context.SpringBootTest'
+src/test/java/com/electricity/ElectricityApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/ElectricityApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/ElectricityApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/electricity/ElectricityApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:27:	ImmutableField:	ImmutableField: Field 'admin' may be declared final
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/AdminControllerTest.java:42:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:103:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.mockito.Mockito'
+src/test/java/com/electricity/api/controller/BillControllerTest.java:116:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.electricity.api.util.LoggerUtil'
+src/test/java/com/electricity/api/controller/BillControllerTest.java:119:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/BillControllerTest.java:119:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:119:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/controller/BillControllerTest.java:121:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:124:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:127:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:130:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:132:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:133:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:134:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/BillControllerTest.java:142:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/controller/BillControllerTest.java:161:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:168:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:176:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:177:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:181:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:183:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billList' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:188:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:194:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:198:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:203:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:209:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:210:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:214:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:216:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:222:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:223:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:227:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:229:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:235:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:236:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:240:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:242:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billList' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:247:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:253:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/BillControllerTest.java:257:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/BillControllerTest.java:259:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billList' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:264:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/BillControllerTest.java:270:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:31:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:31:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:49:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:64:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 234566 should separate every third digit with an underscore
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:77:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:96:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:97:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:101:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customerList' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:114:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:118:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:129:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:130:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:134:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:142:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:143:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:147:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:155:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:156:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:160:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:162:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customerList' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:167:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/CustomerControllerTest.java:173:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:38:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:42:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'responseEntity' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:55:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meters' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:69:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:73:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'responseEntity' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:86:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:87:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:91:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:98:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'responseEntity' could be declared final
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:104:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/MeterControllerTest.java:105:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:55:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:74:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'custId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:84:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:85:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:93:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'custId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:101:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:102:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:110:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:111:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'billId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:112:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'custId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:117:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:119:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:120:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:128:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:129:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:131:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:133:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:134:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:140:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:141:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedPayments' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:146:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:148:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:154:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:155:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentId' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:157:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:159:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/PaymentControllerTest.java:160:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/controller/UserControllerTest.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/controller/UserControllerTest.java:24:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/controller/UserControllerTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/UserControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/UserControllerTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/UserControllerTest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/controller/UserControllerTest.java:41:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "john" appears 8 times in this file; the first occurrence is on line 41
+src/test/java/com/electricity/api/controller/UserControllerTest.java:46:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/UserControllerTest.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:58:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:59:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:63:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/UserControllerTest.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:74:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:75:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:79:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/controller/UserControllerTest.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:90:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:99:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:108:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/controller/UserControllerTest.java:117:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/controller/UserControllerTest.java:121:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/AdminTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/AdminTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/AdminTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/AdminTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/AdminTest.java:10:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/AdminTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/AdminTest.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'contactNo' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:18:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:19:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:20:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:21:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/AdminTest.java:25:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/AdminTest.java:25:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/AdminTest.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/AdminTest.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'contactNo' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/test/java/com/electricity/api/model/AdminTest.java:38:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:39:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:40:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/AdminTest.java:41:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/BillTest.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/BillTest.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/model/BillTest.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/model/BillTest.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/model/BillTest.java:31:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:37:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:43:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:49:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'date' could be declared final
+src/test/java/com/electricity/api/model/BillTest.java:56:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dueDate' could be declared final
+src/test/java/com/electricity/api/model/BillTest.java:69:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:75:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/BillTest.java:81:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/CustomerTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/CustomerTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/CustomerTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/CustomerTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/CustomerTest.java:10:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/CustomerTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/CustomerTest.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'contactNo' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'address' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:17:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:21:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:22:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:23:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:24:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:25:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:26:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:27:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/CustomerTest.java:31:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/CustomerTest.java:31:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/CustomerTest.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/CustomerTest.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'name' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'contactNo' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'address' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/electricity/api/model/CustomerTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:54:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:55:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/CustomerTest.java:56:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/MeterTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/MeterTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/MeterTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/MeterTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/MeterTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/MeterTest.java:10:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/MeterTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/MeterTest.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meterNo' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:12:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 12345 should separate every third digit with an underscore
+src/test/java/com/electricity/api/model/MeterTest.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:16:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/MeterTest.java:17:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/MeterTest.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/MeterTest.java:21:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/MeterTest.java:21:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/MeterTest.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meter' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/MeterTest.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meterNo' could be declared final
+src/test/java/com/electricity/api/model/MeterTest.java:25:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 12345 should separate every third digit with an underscore
+src/test/java/com/electricity/api/model/MeterTest.java:30:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/MeterTest.java:31:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/PaymentTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/PaymentTest.java:9:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/PaymentTest.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/PaymentTest.java:12:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/PaymentTest.java:12:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/PaymentTest.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:13:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/PaymentTest.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalAmount' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentDate' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:17:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:22:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:23:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:24:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:25:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:26:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:27:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/PaymentTest.java:31:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/PaymentTest.java:31:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/PaymentTest.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/PaymentTest.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalAmount' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentDate' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/test/java/com/electricity/api/model/PaymentTest.java:48:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:49:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/PaymentTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/model/UserTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/model/UserTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/UserTest.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/UserTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/UserTest.java:10:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/UserTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/UserTest.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'role' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:18:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:19:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:20:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:21:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/electricity/api/model/UserTest.java:25:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/model/UserTest.java:25:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/model/UserTest.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/electricity/api/model/UserTest.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'role' could be declared final
+src/test/java/com/electricity/api/model/UserTest.java:38:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:39:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:40:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/model/UserTest.java:41:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/AdminServiceTest.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Optional'
+src/test/java/com/electricity/api/service/AdminServiceTest.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/AdminServiceTest.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/AdminServiceTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/AdminServiceTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/AdminServiceTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/AdminServiceTest.java:41:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/AdminServiceTest.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'insertedAdmin' could be declared final
+src/test/java/com/electricity/api/service/AdminServiceTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/AdminServiceTest.java:56:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/AdminServiceTest.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admins' could be declared final
+src/test/java/com/electricity/api/service/AdminServiceTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/AdminServiceTest.java:70:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.jupiter.api.Assertions.assertThrows'
+src/test/java/com/electricity/api/service/BillServiceTest.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/BillServiceTest.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:39:	ImmutableField:	ImmutableField: Field 'bills' may be declared final
+src/test/java/com/electricity/api/service/BillServiceTest.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:42:	SingularField:	SingularField: Perhaps 'meter' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/BillServiceTest.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:43:	SingularField:	SingularField: Perhaps 'customer' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/BillServiceTest.java:44:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/BillServiceTest.java:44:	SingularField:	SingularField: Perhaps 'user' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/BillServiceTest.java:61:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/service/BillServiceTest.java:76:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/BillServiceTest.java:79:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:84:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/BillServiceTest.java:87:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:88:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:92:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:112:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:122:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/BillServiceTest.java:125:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:126:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:130:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/BillServiceTest.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/BillServiceTest.java:133:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/BillServiceTest.java:134:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.jupiter.api.Assertions.*'
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:49:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:49:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:55:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:55:	LongVariable:	LongVariable: Avoid excessively long variable names like customerrepository
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:61:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:61:	ImmutableField:	ImmutableField: Field 'customers' may be declared final
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:61:	UseDiamondOperator:	UseDiamondOperator: Raw type use may be avoided by using a diamond: `new ArrayList<>()`
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:63:	ImmutableField:	ImmutableField: Field 'meters' may be declared final
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:63:	UseDiamondOperator:	UseDiamondOperator: Raw type use may be avoided by using a diamond: `new ArrayList<>()`
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:71:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:77:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:79:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:79:	SingularField:	SingularField: Perhaps 'meter' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:81:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:93:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Raju" appears 5 times in this file; the first occurrence is on line 93
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:107:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 234566 should separate every third digit with an underscore
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:123:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:123:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getAllCustomerTest' should not return void linguistically
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:129:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:133:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:159:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:171:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:175:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:191:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:198:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:202:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:210:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:214:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:218:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:230:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:234:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/CustomerServiceTest.java:238:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/MeterServiceTest.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/MeterServiceTest.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/MeterServiceTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/MeterServiceTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/MeterServiceTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/MeterServiceTest.java:36:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/service/MeterServiceTest.java:49:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/MeterServiceTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'meters' could be declared final
+src/test/java/com/electricity/api/service/MeterServiceTest.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/MeterServiceTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/MeterServiceTest.java:67:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/MeterServiceTest.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/test/java/com/electricity/api/service/MeterServiceTest.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/electricity/api/service/MeterServiceTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:41:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:41:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:41:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:49:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:51:	ImmutableField:	ImmutableField: Field 'payments' may be declared final
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:51:	UseDiamondOperator:	UseDiamondOperator: Raw type use may be avoided by using a diamond: `new ArrayList<>()`
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:55:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:57:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:59:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:59:	SingularField:	SingularField: Perhaps 'meter' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:61:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:61:	SingularField:	SingularField: Perhaps 'bill' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:63:	SingularField:	SingularField: Perhaps 'customer' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:65:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:65:	SingularField:	SingularField: Perhaps 'user' could be replaced by a local variable.
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:97:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 123456 should separate every third digit with an underscore
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:141:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:149:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:153:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:163:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:171:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:175:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:219:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:227:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/PaymentServiceTest.java:231:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/UserServiceTest.java:18:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.security.core.authority.SimpleGrantedAuthority'
+src/test/java/com/electricity/api/service/UserServiceTest.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/electricity/api/service/UserServiceTest.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/electricity/api/service/UserServiceTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/UserServiceTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/UserServiceTest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/electricity/api/service/UserServiceTest.java:46:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/electricity/api/service/UserServiceTest.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDetails' could be declared final
+src/test/java/com/electricity/api/service/UserServiceTest.java:57:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/UserServiceTest.java:58:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/UserServiceTest.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorities' could be declared final
+src/test/java/com/electricity/api/service/UserServiceTest.java:61:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/UserServiceTest.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authority' could be declared final
+src/test/java/com/electricity/api/service/UserServiceTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/electricity/api/service/UserServiceTest.java:67:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).

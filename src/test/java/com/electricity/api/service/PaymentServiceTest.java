@@ -7,9 +7,10 @@ import java.util.Optional;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 
 import org.junit.jupiter.api.Test;
@@ -51,7 +52,6 @@ public class PaymentServiceTest {
 	private List<Payment> payments = new ArrayList();
 
 	@InjectMocks
-
 	private PaymentService service;
 
 	private Payment payment;
@@ -235,6 +235,55 @@ public class PaymentServiceTest {
     }
 	
 	
-	
+    @Test
+    void testLatePaidAmount() {
+        double expectedFineAmount = 39.0;
+
+        double actualFineAmount = service.latePaidAmount(payment);
+
+        Assertions.assertEquals(expectedFineAmount, actualFineAmount);
+    }
+
+    @Test
+    void testAssign() {
+        service.assign(payment);
+
+        verify(paymentRepository).save(payment);
+    }
+
+    @Test
+    void testDeletePaymentById() throws PaymentNotFoundException {
+        service.deletePaymentById(payment);
+
+        verify(paymentRepository).delete(payment);
+    }
+
+//    @Test
+//    void testGetAllPaymentRecords() {
+//        List<Payment> expectedList = new ArrayList<>();
+//
+//        List<Payment> actualList = paymentService.getAllPaymentRecords();
+//
+//        Assertions.assertEquals(expectedList, actualList);
+//        verify(paymentRepository).findAll();
+//    }
+
+    @Test
+    void testUpdatePaymentById() throws PaymentNotFoundException {
+        service.updatePaymentById(payment);
+
+        verify(paymentRepository).save(payment);
+    }
+
+   
+    @Test
+    void testGetPaymentByCustomerId1() throws PaymentNotFoundException {
+        List<Payment> expectedList = new ArrayList<>();
+
+        List<Payment> actualList = service.getPaymentByCustomerId(101);
+
+        Assertions.assertEquals(expectedList, actualList);
+        verify(paymentRepository).findAll();
+    }
 
 }

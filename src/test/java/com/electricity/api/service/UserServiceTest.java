@@ -1,13 +1,14 @@
 package com.electricity.api.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 
 import java.util.Collection;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -64,7 +65,7 @@ class UserServiceTest {
     }
 
     @Test
-    void testLoadUserByUsername_UserNotFound() {
+    void testLoadUserByUsernameUserNotFound() {
         // Mocking the userRepository method to return null
         when(userRepository.getUserByUsername(user.getUsername())).thenReturn(null);
 
@@ -75,5 +76,25 @@ class UserServiceTest {
 
         // Verify that the userRepository method was called
         verify(userRepository).getUserByUsername(user.getUsername());
+
+        // Fix: Create a user object and set the required properties
+        User mockUser = new User();
+        mockUser.setUsername(user.getUsername());
+      //  mockUser.setRole(USER);
+
+        // Update the userRepository mock to return the mockUser object
+        when(userRepository.getUserByUsername(user.getUsername())).thenReturn(mockUser);
+
+        // Call the method again
+        UserDetails userDetails = service.loadUserByUsername(user.getUsername());
+
+        // Verify that the userRepository method was called again
+        verify(userRepository, times(2)).getUserByUsername(user.getUsername());
+
+        // Additional assertions can be added to verify the returned UserDetails object
+        assertNotNull(userDetails);
+        assertEquals(mockUser.getUsername(), userDetails.getUsername());
+        // Add more assertions as needed
     }
+
 }

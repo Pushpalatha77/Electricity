@@ -71,7 +71,7 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testBillPayment_ValidBillAndCustomer_ReturnsSuccessMessage() throws Exception {
+    void testBillPaymentValidBillAndCustomerReturnsSuccessMessage() throws Exception {
         int billId = 101;
         int custId = 1010;
 
@@ -79,7 +79,7 @@ class PaymentControllerTest {
         when(customerService.getCustomerById(custId)).thenReturn(Optional.of(customer));
       //  when(paymentService.assign(payment)).thenReturn(payment);
 
-        ResponseEntity<String> response = paymentController.BillPayment(payment, billId, custId);
+        ResponseEntity<String> response = paymentController.billPayment(payment, billId, custId);
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals("Payment Succesfull!!!", response.getBody());
@@ -90,13 +90,13 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testBillPayment_InvalidBill_ReturnsBadRequest() throws Exception {
+    void testBillPaymentInvalidBillReturnsBadRequest() throws Exception {
         int billId = 101;
         int custId = 1010;
 
         when(billService.getBillById(billId)).thenReturn(Optional.empty());
 
-        ResponseEntity<String> response = paymentController.BillPayment(payment, billId, custId);
+        ResponseEntity<String> response = paymentController.billPayment(payment, billId, custId);
 
         assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
         assertEquals("entered invalid billId", response.getBody());
@@ -107,14 +107,14 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testBillPayment_InvalidCustomer_ReturnsBadRequest() throws Exception {
+    void testBillPaymentInvalidCustomerReturnsBadRequest() throws Exception {
         int billId = 101;
         int custId = 1010;
 
         when(billService.getBillById(billId)).thenReturn(Optional.of(bill));
         when(customerService.getCustomerById(custId)).thenReturn(Optional.empty());
 
-        ResponseEntity<String> response = paymentController.BillPayment(payment, billId, custId);
+        ResponseEntity<String> response = paymentController.billPayment(payment, billId, custId);
 
         assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
         assertEquals("entered invalid custId", response.getBody());
@@ -125,7 +125,7 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testDeletePaymentById_ValidPaymentId_ReturnsSuccessMessage() throws PaymentNotFoundException {
+    void testDeletePaymentByIdValidPaymentIdReturnsSuccessMessage() throws PaymentNotFoundException {
         int paymentId = 23;
 
         ResponseEntity<String> response = paymentController.deletePaymentById(paymentId, payment);
@@ -137,7 +137,7 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testGetAllPaymentRecords_ReturnsListOfPayments() {
+    void testGetAllPaymentRecordsReturnsListOfPayments() {
         List<Payment> expectedPayments = new ArrayList<>();
         expectedPayments.add(payment);
 
@@ -151,7 +151,7 @@ class PaymentControllerTest {
     }
 
     @Test
-    void testUpdatePaymentById_ValidPaymentId_ReturnsSuccessMessage() throws PaymentNotFoundException {
+    void testUpdatePaymentByIdValidPaymentIdReturnsSuccessMessage() throws PaymentNotFoundException {
         int paymentId = 23;
 
         ResponseEntity<String> response = paymentController.updatePaymentById(paymentId, payment);

@@ -10,8 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.electricity.api.data.CustomerRepository;
-
+import com.electricity.api.data.MeterRepository;
 import com.electricity.api.model.Customer;
+import com.electricity.api.model.Meter;
 
 @Service
 
@@ -20,6 +21,9 @@ public class CustomerService {
 	@Autowired
 
 	private CustomerRepository customerRepository;
+	
+	@Autowired
+	private MeterRepository meterRepo;
 
 	public void insertCustomer(Customer customer) {
 
@@ -70,8 +74,7 @@ public class CustomerService {
         // Fetch all customers from the DB
 
         List<Customer> list = customerRepository.findAll();
-
-        
+ 
 
         List<Customer> filteredList =
 
@@ -80,7 +83,7 @@ public class CustomerService {
                     .filter(e->e.getMeter().getId() == mid)
 
                     .collect(Collectors.toList());
-
+       // System.out.println(filteredList);
         
 
         return filteredList;

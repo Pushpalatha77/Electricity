@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.electricity.api.data.UserRepository;
 import com.electricity.api.model.User;
 
-@CrossOrigin(origins = { "*" })
 @RestController
 @RequestMapping("/api/user")
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class UserController {
 
 	@Autowired

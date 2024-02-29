@@ -7,14 +7,14 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 import com.electricity.api.data.BillRepository;
 import com.electricity.api.data.MeterRepository;
 import com.electricity.api.exception.BillNotFoundException;
-
 import com.electricity.api.model.Bill;
 
 @Service
-public class BillService {
+public class BillService extends Exception{
 	@Autowired
 
 	private BillRepository billRepository;
@@ -40,8 +40,6 @@ public class BillService {
     
 	// Getall Implementation
 	public List<Bill> getAllBill() {
-
-		// TODO Auto-generated method stub
 
 		return billRepository.findAll();
 
@@ -88,27 +86,17 @@ public class BillService {
 	//Business apis Implementation
 	//Get bill by  customer ID
 
-    public List<Bill> getBillByCustomerId(int cid)  {
+	public List<Bill> getBillByCustomerId(int cid)   {
+	    // Fetch all bills from the DB
+	    List<Bill> list = billRepository.findAll();
+	   
+	    List<Bill> filteredList = list.stream()
+	            .filter(e -> e.getCustomer().getId() == cid)
+	            .collect(Collectors.toList());
 
-        // Fetch all bills from the DB
-
-        List<Bill> list = billRepository.findAll();
-       
-        List<Bill> filteredList =
-
-                list.stream()
-                    .filter(e->e.getCustomer().getId() == cid)
-                    .collect(Collectors.toList());
-//       
-//        if (filteredList.isEmpty()) {
-//            throw new CustomerNotFoundException("No bills found for the given customer ID");
-//        }
-//       
-       
-        return filteredList;
-        
-        
-    }
+	   
+	    return filteredList;
+	}
 
   
     		//Get bill by meter ID
@@ -117,7 +105,8 @@ public class BillService {
 
           // Fetch all bills from the DB
 
-         List<Bill> list = billRepository.findAll();
+         List<Bill> list = billRepository.findAll(); 
+        // System.out.println(list);
          List<Bill> filteredList =
                         list.stream()
                             .filter(e->e.getMeter().getId() == mid)
@@ -125,7 +114,6 @@ public class BillService {
                 return filteredList;
 
             }
-
 
 
 }

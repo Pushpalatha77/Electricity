@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.electricity.api.exception.BillNotFoundException;
-
+import com.electricity.api.exception.CustomerNotFoundException;
+import com.electricity.api.exception.MeterIdNotFoundException;
 import com.electricity.api.model.Bill;
 
 import com.electricity.api.model.Customer;
@@ -60,7 +61,7 @@ public class BillController {
     if(!optionalP.isPresent())
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Invalid Customer Id");
- //fetch the object based on mid
+ //fetch the meter object based on mid
 
    Optional<Meter> optionalD = meterService.getMeterById(mid);
    if(!optionalD.isPresent())
@@ -71,13 +72,15 @@ public class BillController {
 
      Meter meter = optionalD.get();
 
-    //Attach meter object to customer
+    //Attach customer object to bill
 
         bill.setCustomer(customer);
-
+        
+   //Attach meter object to bill
+        
         bill.setMeter(meter);
 
-        //save the customer object
+        //save the bill object
 
         billService.insertBill(bill);
         LoggerUtil.logInfo("Bill details are posted");
@@ -139,7 +142,7 @@ public class BillController {
 
 	    //1.Get Bill by customer id
 
-	        
+	       
 
 	        @GetMapping("/api/bill/customer/{cid}")
 

@@ -119,7 +119,7 @@ public class CustomerController {
 		List<Customer> list = customerService.getAllCustomer();
 
 		return list;
-
+ 
 	}
 
 	@GetMapping("/api/customer/{customerId}")

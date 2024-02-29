@@ -107,6 +107,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import com.electricity.api.exception.BillNotFoundException;
+import com.electricity.api.exception.MeterIdNotFoundException;
 import com.electricity.api.model.Bill;
 import com.electricity.api.model.Customer;
 import com.electricity.api.model.Meter;

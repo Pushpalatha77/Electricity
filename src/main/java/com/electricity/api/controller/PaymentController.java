@@ -38,7 +38,7 @@ public class PaymentController {
 	private CustomerService customerService;
 
 	@PostMapping("/add/{billId}/{custId}")
-	public ResponseEntity<String> BillPayment(@RequestBody Payment payment, @PathVariable("billId") int billId,
+	public ResponseEntity<String> billPayment(@RequestBody Payment payment, @PathVariable("billId") int billId,
 			@PathVariable("custId") int custId) throws Exception{
 
 		// fetch the bill object based on billId

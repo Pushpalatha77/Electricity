@@ -23,7 +23,8 @@ import lombok.Setter;
 public class Bill {
 
 	@Id
-
+                    
+	
 	@GeneratedValue(strategy = GenerationType.AUTO)
 
 	private int id;
